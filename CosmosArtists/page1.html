@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="page1.css">
+    <link rel="icon" href="logo.png">
+    <title> Cosmos Artists | Home page </title>
+</head>
+<body>
+   <div class="nav">
+      <h1 class="logo">Cosmos Artists</h1>
+      <ul>
+          <li><a href="page1.html">Home</a></li>
+          <li><a href="page2.html">Team</a></li>
+          <li><a href="page3.html">Science & Art</a></li>
+          <li><a href="page4.html">Build your JWST</a></li>
+      </ul>
+   </div>
+   <div class="conten">
+       <h1>Cosmos Artists</h1>
+         <p>
+            Only art and science make us suspect the existence of life to a higher level, <br> and maybe also instill hope thereof.
+         </p>
+         <div class="but">
+           <a href="https://youtu.be/GqneQJzZroA"> <button>Watch us</button> </a>
+           <a href="https://www.jwst.nasa.gov"> <button> JWST</button> </a>
+        </div>
+        <div>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdL5HX9V4za2KFgwyF4Rg3DyF_ja4Boi_8jQMH6DFpmlNGcVw/viewform?usp=sf_link">  <button>Feedback</button> </a>  
+        </div>
+    </div>
+    <script>
+      window.watsonAssistantChatOptions = {
+          integrationID: "35692b4c-f912-4f3b-9bdc-2454a9917005", // The ID of this integration.
+          region: "eu-gb", // The region your integration is hosted in.
+          serviceInstanceID: "76706f26-661f-4161-9b52-64428e802bd3", // The ID of your service instance.
+          onLoad: function(instance) { instance.render(); }
+        };
+      setTimeout(function(){
+        const t=document.createElement('script');
+        t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" +
+          (window.watsonAssistantChatOptions.clientVersion || 'latest') +
+          "/WatsonAssistantChatEntry.js"
+        document.head.appendChild(t);
+      });
+    </script>
+      
+</body>
+</html>
